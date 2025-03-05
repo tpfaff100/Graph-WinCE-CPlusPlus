@@ -20,5 +20,7 @@ This thing is worth checking out- one can play with it all day!
 
 
 I also added some modules for doing unit conversion and loan amortization for no real good reason.
-What was I thinking?  I don't know.
+What was I thinking?  I don't know.  I guess I wanted everything I'd done on the iPaq in one application.
+
+The generated artwork is for use on an iPAQ 3650 or so sorry about that.  If you use a horizontal layout WinCE device I'm sure you'll need to modify the images.
 
