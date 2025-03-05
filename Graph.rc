@@ -1,0 +1,755 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_GRAPH               ICON    DISCARDABLE     "Graph.ICO"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDM_MAIN_MENU SHMENUBAR DISCARDABLE 
+BEGIN
+    IDM_MAIN_MENU, 3,
+    I_IMAGENONE, IDM_MAIN_MENUITEM, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_APPS, 0, 0,
+    I_IMAGENONE, IDM_MAIN_TABLES, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_TABLES, 0, 1,
+    I_IMAGENONE, IDM_MAIN_EXIT, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_EXIT, 0, 2,
+END
+
+IDM_LOANFORM_MENU SHMENUBAR DISCARDABLE 
+BEGIN
+    IDM_LOANFORM_MENU, 3,
+    I_IMAGENONE, IDM_LOANFORM_AMORTIZE, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_AMORTIZE, 0, 0,
+    I_IMAGENONE, IDM_LOANFORM_RESET, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_RESET, 0, 1,
+    I_IMAGENONE, IDM_LOANFORM_EXIT, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_EXIT, 0, 2,
+END
+
+IDM_CALC_MENU SHMENUBAR DISCARDABLE 
+BEGIN
+    IDM_CALC_MENU, 2,
+    I_IMAGENONE, IDM_CALC_RESET, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_RESET, 0, 0,
+    I_IMAGENONE, IDM_CALC_EXIT, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_EXIT, 0, 1,
+END
+
+IDM_WAVESHAPE_MENU SHMENUBAR DISCARDABLE 
+BEGIN
+    IDM_WAVESHAPE_MENU, 5,
+    I_IMAGENONE, IDM_WAVESHAPEOPTIONS, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_OPTIONS, 0, 0,
+    I_IMAGENONE, IDM_WAVESHAPESOUND, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_SOUND, 0, 1,
+    I_IMAGENONE, IDM_WAVEPRESETS, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_PRESETS, 0, 2,
+    I_IMAGENONE, IDM_WAVELIMITS, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_LIMITS, 0, 3,
+    I_IMAGENONE, IDM_WAVESHAPE_EXIT, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_EXIT, 0, 4,
+END
+
+IDM_CONVERSION_MENU SHMENUBAR DISCARDABLE 
+BEGIN
+    IDM_CONVERSION_MENU, 1,
+    I_IMAGENONE, IDM_CONVERSION_EXIT, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_EXIT, 0, 0,
+END
+
+IDM_SIMPLEST_MENU SHMENUBAR DISCARDABLE 
+BEGIN
+    IDM_SIMPLEST_MENU, 1,
+    I_IMAGENONE, IDM_SIMPLE_EXIT, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_EXIT, 0, 0,
+END
+
+IDM_SIMPLE_MENU SHMENUBAR DISCARDABLE 
+BEGIN
+    IDM_SIMPLE_MENU, 1,
+    I_IMAGENONE, IDM_SIMPLE_EXIT, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_EXIT, 0, 0,
+END
+
+IDM_LOANINFO_MENU SHMENUBAR DISCARDABLE 
+BEGIN
+    IDM_LOANINFO_MENU, 4,
+    I_IMAGENONE, IDM_LOANINFO_MONTHLY, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_AMORTIZEBYMONTH, 0, 0,
+    I_IMAGENONE, IDM_LOANINFO_YEARLY, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_YEARLY, 0, 1,
+    I_IMAGENONE, IDM_LOANINFO_EXIT, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_EXIT, 0, 2,
+    I_IMAGENONE, IDM_LOANINFO_EXIT, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_PREVIOUS, 0, 3,
+END
+
+IDM_DATAPLOTTER_MENU SHMENUBAR DISCARDABLE 
+BEGIN
+    IDM_DATAPLOTTER_MENU, 2,
+    I_IMAGENONE, IDM_DATAOPTIONS, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_OPTIONS, 0, 0,
+    I_IMAGENONE, IDM_DATAPLOTTER_EXIT, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_EXIT, 0, 1,
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menubar
+//
+
+IDM_MAIN_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Apps"
+    BEGIN
+        MENUITEM "About",                       IDM_HELP_ABOUT
+        MENUITEM "Calculator",                  IDM_CALCULATOR
+        MENUITEM "Converter",                   IDM_CONVERSION
+        MENUITEM "DataPlotter",                 IDM_DATAPLOTTER
+        MENUITEM "Loan",                        IDM_LOAN_FORM
+        MENUITEM "Mirror",                      IDM_EFFECTS
+        MENUITEM "Wave Shaper",                 IDM_WAVESHAPER
+    END
+    POPUP "Tables"
+    BEGIN
+        MENUITEM "AscII",                       IDM_TABLE_ASCII
+        MENUITEM "Equivalents",                 IDM_TABLE_EQUIVALENTS
+        MENUITEM "Financials",                  IDM_TABLE_FINANCIALS
+    END
+    MENUITEM "Exit",                        IDM_MAIN_EXIT
+END
+
+IDM_LOANFORM_MENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Amortize",                    IDM_LOANFORM_AMORTIZE
+    MENUITEM "Reset",                       IDM_LOANFORM_RESET
+    MENUITEM "Exit",                        IDM_LOANFORM_EXIT
+END
+
+IDM_CALC_MENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Reset",                       IDM_CALC_RESET
+    MENUITEM "Exit",                        IDM_CALC_EXIT
+END
+
+IDM_WAVESHAPE_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "Reset",                       IDM_WAVESHAPERESET
+        MENUITEM "X vs Y",                      IDM_WAVEXVSY
+        MENUITEM "Bank Y",                      IDM_WAVEBANKY
+        MENUITEM "Bank X",                      IDM_WAVEBANKX
+    END
+    POPUP "Sound"
+    BEGIN
+        MENUITEM "Volume Soft",                 IDM_WAVEVOLSOFT
+        MENUITEM "Volume Medium",               IDM_WAVEVOLMED
+        MENUITEM "Volume Loud",                 IDM_WAVEVOLLOUD
+        MENUITEM "Play Waveform",               IDM_WAVEPLAYXY
+    END
+    POPUP "Presets"
+    BEGIN
+        MENUITEM "CircleCycle",                 IDM_WAVEPREF009
+        MENUITEM "Pear",                        IDM_WAVEPREF008
+        MENUITEM "Circle of Circles",           IDM_WAVEPREF007
+        MENUITEM "Wavemania",                   IDM_WAVEPREF006
+        MENUITEM "ThreePetalFlower",            IDM_WAVEPREF005
+        MENUITEM "Circular S",                  IDM_WAVEPREF004
+        MENUITEM "Square",                      IDM_WAVEPREF003
+        MENUITEM "Triangle",                    IDM_WAVEPREF002
+        MENUITEM "Circle",                      IDM_WAVEPREF001
+    END
+    MENUITEM "Limits",                      IDM_WAVELIMITS
+    MENUITEM "Exit",                        IDM_WAVESHAPE_EXIT
+END
+
+IDM_CONVERSION_MENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Exit",                        IDM_CONVERSION_EXIT
+END
+
+IDM_SIMPLEST_MENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Exit",                        IDM_SIMPLE_EXIT
+END
+
+IDM_SIMPLE_MENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Exit",                        IDM_SIMPLE_EXIT
+END
+
+IDM_LOANINFO_MENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Monthly",                     IDM_LOANINFO_MONTHLY
+    MENUITEM "Yearly",                      IDM_LOANINFO_YEARLY
+    MENUITEM "Exit",                        IDM_LOANINFO_EXIT
+    MENUITEM "",                            IDM_LOANINFO_EXIT
+END
+
+IDM_DATAPLOTTER_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "Nothing",                     IDM_DATANOTHING
+    END
+    MENUITEM "Exit",                        IDM_DATAPLOTTER_EXIT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 110, 55
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE 0x80000000L
+CAPTION "About Graph 1.0"
+FONT 8, "Tahoma"
+BEGIN
+    ICON            IDI_GRAPH,IDC_STATIC,7,7,20,20
+    LTEXT           "Graph 1.0",IDC_STATIC,7,28,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2001",IDC_STATIC,7,39,119,8
+END
+
+IDD_LOANFORM DIALOG DISCARDABLE  0, 0, 167, 180
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Loan Entry Form"
+FONT 8, "Arial"
+BEGIN
+    COMBOBOX        IDC_LOANTITLE,21,2,75,153,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_MORTGAGEAMT,49,16,47,137,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_YEARS,125,16,35,138,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_INTERESTRATE,49,28,37,125,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ADDTLPYMT,125,28,35,126,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ANNUALINS,123,57,37,97,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_PMI,25,69,34,84,CBS_DROPDOWN | CBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ANNUALTAX,123,71,37,83,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_LOANPAYMENT,104,43,56,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_BORDER
+    EDITTEXT        IDC_MONTHLYPAYMENT,104,84,55,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_BORDER
+    LTEXT           "Interest Rate:",IDC_STATIC,2,30,47,9
+    LTEXT           "Years:",IDC_STATIC,100,18,23,9
+    LTEXT           "Monthly Payment w/out Fees:",IDC_STATIC,2,43,99,9
+    LTEXT           "Addl Pymt:",IDC_STATIC,88,30,37,9
+    LTEXT           "Title:",IDC_STATIC,3,4,16,9
+    LTEXT           "Monthly Payment:",ID_STATIC,2,84,60,9
+    LTEXT           "Annual Insurance:",IDC_STATIC,62,59,60,9
+    LTEXT           "Annual Tax:",IDC_STATIC,82,71,41,9
+    LTEXT           "PMI:",IDC_STATIC,2,71,16,9
+    LTEXT           "Taxes/Fees",IDC_STATIC,2,59,44,11
+    LTEXT           "Mortgage Amt:",IDC_STATIC,2,18,48,9
+    COMBOBOX        IDC_LOANDATE,117,2,43,153,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Date:",IDC_STATIC,100,4,16,9
+    PUSHBUTTON      "More info...",IDC_LOANFORM_NEXTINFO,118,95,42,9
+END
+
+IDD_LOANINFO DIALOG DISCARDABLE  0, 0, 110, 55
+STYLE WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+FONT 6, "Arial"
+BEGIN
+END
+
+IDD_CALCULATOR DIALOG DISCARDABLE  0, 0, 167, 168
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Calculator"
+FONT 8, "Arial"
+BEGIN
+    PUSHBUTTON      "0",IDC_CALC0,30,91,48,12,NOT WS_TABSTOP
+    PUSHBUTTON      "1",IDC_CALC1,30,76,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "2",IDC_CALC2,56,76,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "3",IDC_CALC3,82,76,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "4",IDC_CALC4,30,61,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "5",IDC_CALC5,56,61,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "6",IDC_CALC6,82,61,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "7",IDC_CALC7,30,46,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "8",IDC_CALC8,56,46,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "9",IDC_CALC9,82,46,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "+",IDC_CALCPLUS,108,46,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "-",IDC_CALCMINUS,108,61,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "*",IDC_CALCMULT,108,76,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "/",IDC_CALCDIV,108,91,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "clr",IDC_CALCCLEAR,134,46,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "<",IDC_CALCBS,143,7,12,12
+    PUSHBUTTON      "M+",IDC_CALCMEMPLUS,4,76,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "M-",IDC_CALCMEMMINUS,4,91,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "MR",IDC_CALCMEMRETRIEVE,4,61,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "MC",IDC_CALCMEMCLEAR,4,46,22,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "=",IDC_CALCEQUALS,82,106,48,12
+    PUSHBUTTON      "+/-",IDC_CALCPLUSMINUS,4,106,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      ">>",IDC_CALCRIGHTSHIFT,56,106,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "<<",IDC_CALCLEFTSHIFT,30,106,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "A",IDC_CALCA,4,31,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "B",IDC_CALCB,30,31,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "C",IDC_CALCC,56,31,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "D",IDC_CALCD,82,31,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "E",IDC_CALCE,108,31,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "F",IDC_CALCF,134,31,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      ".",IDC_CALCPOINT,82,91,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "ce",IDC_CALCCE,134,61,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "and",IDC_CALCAND,134,76,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "or",IDC_CALCOR,134,91,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "xor",IDC_CALCXOR,134,106,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "dec",IDC_CALCDEC,4,121,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "hex",IDC_CALCHEX,30,121,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "bin",IDC_CALCBIN,56,121,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "oct",IDC_CALCOCT,82,121,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "mod",IDC_CALCMOD,134,121,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "sqrt",IDC_CALCSQRT,108,121,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "sin",IDC_CALCSIN,4,136,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "cos",IDC_CALCCOS,30,136,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "tan",IDC_CALCTAN,56,136,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "asin",IDC_CALCASIN,82,136,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "atan",IDC_CALCATAN,134,136,22,12,NOT WS_TABSTOP
+    PUSHBUTTON      "acos",IDC_CALCACOS,108,136,22,12,NOT WS_TABSTOP
+    COMBOBOX        IDC_CALCLCD,4,7,138,76,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Rad",IDC_CALCDEGRAD,20,20,16,8
+    LTEXT           "M",IDC_CALCMEMORYLIGHT,8,20,10,8
+END
+
+IDD_WAVESHAPER DIALOG DISCARDABLE  0, 0, 167, 180
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "WaveShaper"
+FONT 8, "Arial"
+BEGIN
+    COMBOBOX        IDC_WAVEAMPLITUDE,13,9,34,164,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_WAVECYCLES,47,9,34,164,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_WAVEPHASE,81,9,34,164,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_WAVERES,115,9,34,164,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_WAVEOPCHOICE,13,21,136,147,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Sin",IDC_WAVESIN,"Button",BS_AUTOCHECKBOX | 
+                    BS_RIGHTBUTTON,33,34,25,10
+    CONTROL         "Cos",IDC_WAVECOS,"Button",BS_AUTOCHECKBOX | 
+                    BS_RIGHTBUTTON,62,34,25,10
+    CONTROL         "Tan",IDC_WAVETAN,"Button",BS_AUTOCHECKBOX | 
+                    BS_RIGHTBUTTON,91,34,25,10
+    CONTROL         "SSqu",IDC_WAVESSQU,"Button",BS_AUTOCHECKBOX | 
+                    BS_RIGHTBUTTON,31,44,27,10
+    PUSHBUTTON      "1",IDC_WAVBANK1,2,0,11,10
+    PUSHBUTTON      "2",IDC_WAVBANK2,2,10,11,10
+    PUSHBUTTON      "3",IDC_WAVBANK3,2,20,11,10
+    PUSHBUTTON      "4",IDC_WAVBANK4,2,29,11,11
+    PUSHBUTTON      "5",IDC_WAVBANK5,149,0,11,10
+    PUSHBUTTON      "6",IDC_WAVBANK6,149,10,11,10
+    PUSHBUTTON      "7",IDC_WAVBANK7,149,20,11,10
+    PUSHBUTTON      "8",IDC_WAVBANK8,149,30,11,10
+    LTEXT           "Amp:",IDC_STATIC,15,1,18,8
+    LTEXT           "Cycles:",IDC_STATIC,48,1,25,8
+    LTEXT           "Phase:",IDC_STATIC,82,1,23,8
+    LTEXT           "Res:",IDC_STATIC,117,1,15,8
+    PUSHBUTTON      "Bank X",IDC_WAVEBANKTEXT,2,44,29,10
+    CONTROL         "CSqu",IDC_WAVECSQU,"Button",BS_AUTOCHECKBOX | 
+                    BS_RIGHTBUTTON,60,44,27,10
+    CONTROL         "TLim",IDC_WAVETANLIM,"Button",BS_AUTOCHECKBOX | 
+                    BS_RIGHTBUTTON,89,44,27,10
+    CONTROL         "SOM",IDC_WAVESOM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    128,44,31,10
+END
+
+IDD_CONVERSION DIALOG DISCARDABLE  0, 0, 167, 180
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Unit Conversion"
+FONT 8, "Arial"
+BEGIN
+    COMBOBOX        IDC_CONV_UNITTYPE,7,9,148,76,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CONV_UNIT1,74,35,81,138,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CONV_UNIT2,74,54,81,119,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CONV_INPUT1,7,35,66,138,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_CONV_INPUT2,7,54,66,119,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Please click the keyboard to make entries",IDC_STATIC,
+                    14,137,134,10
+END
+
+IDD_TEXTWINDOW DIALOG DISCARDABLE  0, 0, 167, 180
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Table of Equivalents"
+FONT 8, "Arial"
+BEGIN
+    EDITTEXT        IDC_TABLEEQUTEXT,2,2,158,155,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+END
+
+IDD_EFFECTS DIALOG DISCARDABLE  0, 0, 167, 180
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mirror"
+FONT 8, "Arial"
+BEGIN
+END
+
+IDD_DATAPLOTTER DIALOG DISCARDABLE  0, 0, 167, 180
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mirror"
+FONT 8, "Arial"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 56
+        TOPMARGIN, 7
+    END
+
+    IDD_LOANFORM, DIALOG
+    BEGIN
+        RIGHTMARGIN, 160
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_LOANINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 56
+        TOPMARGIN, 7
+    END
+
+    IDD_CALCULATOR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 164
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_WAVESHAPER, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 160
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_CONVERSION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_TEXTWINDOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 160
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_EFFECTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 160
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_DATAPLOTTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 160
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 173
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_LOANFORM DLGINIT
+BEGIN
+    IDC_LOANTITLE, 0x403, 2, 0
+0x0000, 
+    IDC_MORTGAGEAMT, 0x403, 2, 0
+0x0000, 
+    IDC_YEARS, 0x403, 2, 0
+0x0000, 
+    IDC_INTERESTRATE, 0x403, 2, 0
+0x0000, 
+    IDC_ADDTLPYMT, 0x403, 2, 0
+0x0000, 
+    IDC_ANNUALINS, 0x403, 2, 0
+0x0000, 
+    IDC_PMI, 0x403, 2, 0
+0x0000, 
+    IDC_ANNUALTAX, 0x403, 2, 0
+0x0000, 
+    IDC_LOANDATE, 0x403, 2, 0
+0x0000, 
+    0
+END
+
+IDD_CALCULATOR DLGINIT
+BEGIN
+    IDC_CALCLCD, 0x403, 2, 0
+0x0000, 
+    0
+END
+
+IDD_CONVERSION DLGINIT
+BEGIN
+    IDC_CONV_UNITTYPE, 0x403, 2, 0
+0x0000, 
+    IDC_CONV_UNIT1, 0x403, 2, 0
+0x0000, 
+    IDC_CONV_UNIT2, 0x403, 2, 0
+0x0000, 
+    IDC_CONV_INPUT1, 0x403, 2, 0
+0x0000, 
+    IDC_CONV_INPUT2, 0x403, 2, 0
+0x0000, 
+    0
+END
+
+IDD_WAVESHAPER DLGINIT
+BEGIN
+    IDC_WAVEAMPLITUDE, 0x403, 2, 0
+0x0000, 
+    IDC_WAVECYCLES, 0x403, 2, 0
+0x0000, 
+    IDC_WAVEPHASE, 0x403, 2, 0
+0x0000, 
+    IDC_WAVERES, 0x403, 2, 0
+0x0000, 
+    IDC_WAVEOPCHOICE, 0x403, 2, 0
+0x0000, 
+    0
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "bar\0"
+            VALUE "FileDescription", "Graph\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Graph\0"
+            VALUE "LegalCopyright", "Copyright © 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Graph.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "bar Graph\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CALCICON            BITMAP  DISCARDABLE     "BitmapCalculator.bmp"
+IDB_LOANICON            BITMAP  DISCARDABLE     "BitmapLoan.bmp"
+IDB_WAVESHAPER          BITMAP  DISCARDABLE     "BitmapWaveshaper.bmp"
+IDB_CONVERSION          BITMAP  DISCARDABLE     "BitmapConversion.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "Graph"
+    IDC_GRAPH               "GRAPH"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_YEAR                "Pmt"
+    IDS_PRINCIPAL           "Principal"
+    IDS_INTEREST            "Interest"
+    IDS_BALANCE             "Balance"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_NEXT            "Next"
+    IDS_CAP_EXIT            "Exit"
+    IDS_CAP_CALC            "Main"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_RESET           "Reset"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_LOAN            "Reset"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_TABLES          "Tables"
+    IDS_CAP_WAVESHAPER      "Wave Shaper"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_APPS            "Apps"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_OPTIONS         "Options"
+    IDS_CAP_AMORTIZE        "Amortize"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_AMORTIZEBYMONTH "Monthly"
+    IDS_CAP_AMORTIZEBYYEAR  "Y"
+    IDS_CAP_YEARLY          "Yearly"
+    IDS_CAP_SOUND           "Sound"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_PRESETS         "Presets"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_LIMITS          "Limits"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

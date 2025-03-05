@@ -1,0 +1,73 @@
+WaveShaper Settings List:
+
+Interesting waveforms:
+
+
+Waveform #1:
+
+BankX:
+Use O1 Algorithm
+
+Oscillator 1:
+Amplitude:50
+Cycles:1
+Click Sin and TLim
+
+
+BankY:
+Use O1*O2 Algorithm
+
+Oscillator 1:
+Amplitude:20
+Cycles:35
+Click Sin
+
+Oscillator 2:
+Amplitude:20
+Cycles:1
+Click Tan or TLim
+
+
+
+Waveform #2:
+
+BankX:
+Use O1+O2+O3 Algorithm
+
+Oscillator 1:
+Amplitude:70
+Cycles:1
+Click Sin
+
+Oscillator 2:
+Amplitude:70
+Cycles:60
+Click Sin
+
+Oscillator 3:
+Amplitude:50
+Cycles:57
+Click SSqu  (or Sin for different pattern)
+
+
+Bank Y:
+Use O1+O2+O3 Algorithm
+
+Oscillator 1:
+Amplitude:70
+Cycles:1
+Click Cos
+
+Oscillator 2:
+Amplitude:70
+Cycles:60
+Click Cos
+
+Oscillator 3:
+Amplitude:50
+Cycles:57
+Click CSqu (or Cos for different pattern)
+
+
+
+
