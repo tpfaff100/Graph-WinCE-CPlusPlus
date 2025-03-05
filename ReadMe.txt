@@ -14,7 +14,7 @@ Not quite as much fun as the laser imaging system but
 (f) The analog system works by feel, like playing a synthesizer in real time whereas
     a digital system allows recreation of amazing 2D waveform plots
 
-For better or worse, (e) is pretty important though 'sympathetico' modulcation on the analog systems in real time is way easier!
+For better or worse, (f) is pretty important though 'sympathetico' modulcation on the analog systems in real time is way easier!
 
 This thing is worth checking out- one can play with it all day!
 
@@ -24,3 +24,6 @@ What was I thinking?  I don't know.  I guess I wanted everything I'd done on the
 
 The generated artwork is for use on an iPAQ 3650 or so sorry about that.  If you use a horizontal layout WinCE device I'm sure you'll need to modify the images.
 
+
+TODO:  I wrote this 'quick and dirty' and used the math library for generating sin/cos wave for the 2D plots on screen.  
+       This could be a lot faster with lookup tables.
